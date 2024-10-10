@@ -1,0 +1,32 @@
+.home_popup {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000017;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+  }
+  .acticehome_popup {
+    display: flex;
+  }
+  
+  .home_popupForNotes {
+    width: 1000px;
+    height: 500px;
+    background-color: #fff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 1.5rem;
+    box-shadow:5px 5px 100px -50px;
+    position: relative;
+  }
+  
+  
